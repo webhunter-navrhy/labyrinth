@@ -1,0 +1,180 @@
+@font-face{font-family:'Barlow';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/Barlow-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Barlow';font-style:normal;font-weight:400;font-display:swap;src:url(../fonts/Barlow-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Barlow';font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/Barlow-500-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Barlow';font-style:normal;font-weight:500;font-display:swap;src:url(../fonts/Barlow-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Barlow';font-style:normal;font-weight:600;font-display:swap;src:url(../fonts/Barlow-600-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Barlow';font-style:normal;font-weight:600;font-display:swap;src:url(../fonts/Barlow-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(../fonts/BarlowCondensed-600-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(../fonts/BarlowCondensed-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(../fonts/BarlowCondensed-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Barlow Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(../fonts/BarlowCondensed-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+/* Neutrální základ. ŽÁDNÝ design: barvy, fonty a layout vymysli pro konkrétního klienta. */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-behavior: smooth; overflow-x: clip; }
+body { margin: 0; overflow-x: clip; }
+img, picture, video, svg { display: block; max-width: 100%; height: auto; }
+input, button, textarea, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+h1, h2, h3, h4 { margin: 0; text-wrap: balance; }
+p { margin: 0; text-wrap: pretty; }
+ul[role="list"], ol[role="list"] { list-style: none; margin: 0; padding: 0; }
+
+:root {
+  /* barvy: přepiš podle brandu klienta (brief.json -> barvy.doporucene) */
+  --bg: #f4f2ed;
+  --text: #15191b;
+  --muted: #5c5c5c;
+  --accent: #9bcd36;
+  --accent-text: #15191b;
+  --line: #d9d9d9;
+
+  /* písmo: self-host do static/fonts + @font-face s font-display: swap; vždy otestuj háčky ěščřžýáíéůú */
+  --font-body: 'Barlow', system-ui, sans-serif;
+  --font-head: 'Barlow Condensed', 'Barlow', sans-serif;
+
+  /* typografická škála (320 až 1440 px) */
+  --step--1: clamp(0.83rem, 0.80rem + 0.14vw, 0.92rem);
+  --step-0: clamp(1rem, 0.96rem + 0.2vw, 1.125rem);
+  --step-1: clamp(1.2rem, 1.12rem + 0.4vw, 1.45rem);
+  --step-2: clamp(1.44rem, 1.3rem + 0.7vw, 1.9rem);
+  --step-3: clamp(1.73rem, 1.5rem + 1.2vw, 2.6rem);
+  --step-4: clamp(2.07rem, 1.7rem + 1.9vw, 3.5rem);
+  --step-5: clamp(2.5rem, 1.9rem + 3vw, 5rem);
+
+  --space-1: 0.5rem;  --space-2: 1rem;  --space-3: 1.5rem;
+  --space-4: 2.5rem;  --space-5: 4rem;  --space-6: clamp(4rem, 3rem + 5vw, 8rem);
+  --wrap: 72rem;
+  --gutter: clamp(1rem, 4vw, 2.5rem);
+}
+
+body { background: var(--bg); color: var(--text); font-family: var(--font-body); font-size: var(--step-0); line-height: 1.6; }
+h1, h2, h3, h4 { font-family: var(--font-head); line-height: 1.12; font-weight: 600; }
+h1 { font-size: var(--step-5); } h2 { font-size: var(--step-3); } h3 { font-size: var(--step-1); }
+a { color: inherit; }
+:focus-visible { outline: 3px solid currentColor; outline-offset: 3px; }
+.wrap { width: min(100% - 2 * var(--gutter), var(--wrap)); margin-inline: auto; }
+.sekce { padding-block: var(--space-6); }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.skip { position: absolute; left: var(--space-2); top: -4rem; background: var(--bg); padding: var(--space-1) var(--space-2); z-index: 100; }
+.skip:focus { top: var(--space-2); }
+
+/* dotykové cíle: min. 44 px (QA hlásí < 40 px) */
+.tap, button, .tlacitko, input:not([type="checkbox"]):not([type="radio"]), select, textarea { min-height: 44px; }
+.tlacitko, button[type="submit"] { display: inline-flex; align-items: center; justify-content: center; padding: 0.6em 1.4em; background: var(--accent); color: var(--accent-text); border: 0; text-decoration: none; }
+.hlavicka nav a, .paticka a { display: inline-flex; align-items: center; min-height: 44px; padding-inline: 0.25rem; }
+
+/* formulář */
+.formular { display: grid; gap: var(--space-2); max-width: 36rem; }
+.formular label { display: grid; gap: 0.25rem; font-size: var(--step--1); }
+.formular input, .formular textarea, .formular select { padding: 0.6em 0.8em; border: 1px solid var(--line); background: transparent; width: 100%; }
+.formular .past { position: absolute; left: -9999px; }
+.formular-stav { font-size: var(--step--1); min-height: 1.5em; }
+
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
+
+.hlavicka{background:#15191b;color:#fff;position:sticky;top:0;z-index:50}
+.hlavicka .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding-block:.5rem}
+.logo img{height:40px;width:auto}
+.hlavicka nav{display:flex;flex-wrap:wrap;gap:.25rem 1rem}
+.hlavicka nav a{text-decoration:none;font-weight:500}
+.hlavicka nav a:hover{color:#9bcd36}
+h1,h2,h3{text-transform:uppercase;letter-spacing:.01em;font-weight:700}
+h1{font-size:clamp(2.6rem,1.8rem+4vw,5.2rem)}
+.kicker{font-family:var(--font-head);text-transform:uppercase;letter-spacing:.08em;font-weight:600;color:#6d8f1a;margin-bottom:.5rem}
+.tmava .kicker,.hero .kicker{color:#9bcd36}
+.lead{font-size:var(--step-1);max-width:34rem;margin-top:var(--space-2)}
+.uvod{max-width:40rem;margin-block:var(--space-2) var(--space-4)}
+.hero{background:#15191b;color:#fff;padding-block:var(--space-5)}
+.hero-grid{display:grid;gap:var(--space-4);align-items:center}
+.dlazdice{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+.dl{display:block;text-decoration:none;background:#222a2d;border-bottom:4px solid #9bcd36;min-height:44px}
+.dl-obr{display:block;aspect-ratio:4/3;overflow:hidden}
+.dl-obr img{width:100%;height:100%;object-fit:cover}
+.dl-t{display:block;padding:.6rem .8rem;font-family:var(--font-head);font-weight:700;font-size:var(--step-1);text-transform:uppercase}
+.dl:hover{background:#2c3639}
+.dlazdice li:last-child{grid-column:span 2}
+.tmava{background:#15191b;color:#fff}
+.svetla{background:#e7e3d9}
+.umisteni{display:grid;gap:1px;background:#3a4448}
+.umisteni article{background:#15191b;padding:var(--space-3)}
+.umisteni h3{color:#9bcd36}
+.smalt-grid{display:grid;gap:var(--space-4);align-items:center}
+.smalt-text p{margin-block:var(--space-2) var(--space-3);max-width:32rem}
+.smalt-foto{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.sm{box-shadow:0 14px 28px rgba(0,0,0,.25)}
+.sm-c{transform:rotate(-2deg)}.sm-m{transform:rotate(2deg) translateY(1.5rem)}
+.sm img{width:100%;height:auto}
+.synonyma{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.6rem}
+.synonyma li{background:#15191b;color:#fff;padding:.5rem 1rem;font-family:var(--font-head);font-weight:600;font-size:var(--step-1);text-transform:uppercase}
+.galerie{list-style:none;margin:var(--space-4) 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+.galerie img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.kontakt-grid{display:grid;gap:var(--space-4)}
+.tmava a{color:#9bcd36}
+.tmava .formular input,.tmava .formular textarea{background:#fff;color:#15191b;border-color:#fff}
+.paticka{background:#0e1112;color:#cfd3d4;padding-block:var(--space-3);font-size:var(--step--1)}
+.paticka .wrap{display:flex;flex-wrap:wrap;gap:.25rem 1.5rem}
+@media(min-width:48rem){
+ .hero-grid{grid-template-columns:1fr 1.25fr}
+ .dlazdice{grid-template-columns:repeat(6,1fr)}
+ .dl:nth-child(-n+3){grid-column:span 2}.dl:nth-child(n+4){grid-column:span 3}
+ .dlazdice li{grid-column:auto}.dlazdice li:last-child{grid-column:auto}
+ .dlazdice li:nth-child(-n+3){grid-column:span 2}.dlazdice li:nth-child(n+4){grid-column:span 3}
+ .umisteni{grid-template-columns:repeat(3,1fr)}
+ .smalt-grid,.kontakt-grid{grid-template-columns:1fr 1fr}
+ .galerie{grid-template-columns:repeat(4,1fr)}
+}
+
+.dlazdice li:last-child .dl-obr{aspect-ratio:16/7}
+.kontakt-grid a[href^="mailto"]{display:inline-flex;align-items:center;min-height:44px}
+@media(min-width:48rem){
+ .umisteni{grid-template-columns:repeat(6,1fr)}
+ .umisteni article{grid-column:span 2}
+ .umisteni article:nth-child(n+4){grid-column:span 3}
+ .dlazdice li:last-child .dl-obr{aspect-ratio:4/3}
+}
+
+.hero{padding-block:var(--space-4)}
+.mista{display:grid;gap:var(--space-4)}
+.misto{display:grid;gap:var(--space-2);scroll-margin-top:4.5rem}
+.misto-obr img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.misto-t h3{font-size:var(--step-2);margin-bottom:.4rem}
+.misto-t ul{list-style:none;margin:var(--space-2) 0 0;padding:0;display:flex;flex-wrap:wrap;gap:.4rem}
+.misto-t li{border:2px solid #15191b;padding:.2rem .7rem;font-weight:500;font-size:var(--step--1)}
+[id]{scroll-margin-top:4.5rem}
+.hlavicka .poptat{display:none}
+@media(max-width:47.99rem){
+ .hlavicka .wrap{flex-wrap:nowrap;padding-block:.25rem}
+ .hlavicka nav a:not(.poptat){display:none}
+ .hlavicka .poptat{display:inline-flex;background:#9bcd36;color:#15191b;padding:.4rem 1rem;font-weight:700;text-decoration:none}
+ .logo img{height:34px}
+}
+@media(min-width:48rem){
+ .misto{grid-template-columns:1fr 1fr;align-items:center}
+ .misto:nth-child(even) .misto-obr{order:2}
+}
+.logo{display:inline-flex;align-items:center;min-height:44px}
+
+.hero{min-height:min(80vh,46rem);display:flex;align-items:center}
+.hero h1{font-size:clamp(2.8rem,1.6rem+5vw,6rem)}
+.hero .lead{font-size:clamp(1.15rem,1rem+.6vw,1.5rem)}
+.hero-cta{margin-top:var(--space-3)}
+.velke{padding:.8em 1.8em;font-weight:700;font-size:var(--step-1);font-family:var(--font-head);text-transform:uppercase}
+.misto-t li{font-size:var(--step-0);padding:.25rem .8rem}
+@media(min-width:48rem){
+ .mista.karty{grid-template-columns:repeat(6,1fr);gap:var(--space-3)}
+ .karty .misto{grid-column:span 2;grid-template-columns:1fr;align-items:start;gap:var(--space-2)}
+ .karty .misto:nth-child(n+4){grid-column:span 3}
+ .karty .misto:nth-child(even) .misto-obr{order:0}
+ .karty .misto-obr img{aspect-ratio:3/2}
+ .galerie{grid-template-columns:repeat(3,1fr)}
+ .hlavicka nav a.poptat{display:inline-flex;background:#9bcd36;color:#15191b;padding:.3rem 1.1rem;font-weight:700}
+ .hlavicka nav a.poptat:hover{color:#15191b;background:#b4e04f}
+}
+.hlavicka .tel{font-weight:700}
+.sekce{padding-block:clamp(3rem,2rem+4vw,6rem)}
+
+.dlazdice{grid-template-columns:1fr!important}
+.dlazdice li,.dlazdice li:nth-child(n){grid-column:auto!important}
+.dl{display:flex;align-items:center;gap:1rem;padding:.9rem 1.1rem;border-bottom:0;border-left:6px solid #9bcd36}
+.dl-n{font-family:var(--font-head);font-weight:700;color:#9bcd36;font-size:var(--step-2)}
+.dl-t{padding:0;font-size:var(--step-2)}

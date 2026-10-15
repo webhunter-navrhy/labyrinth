@@ -1,0 +1,103 @@
+{% extends "_base.html" %}
+{% set titulek = 'Cedule a smaltované tabulky – LABYRINTH-CZ Hradec Králové' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">Cedule, tabulky a orientační systémy</p>
+      <h1>Kam ta cedule přijde?</h1>
+      <p class="lead">Nemusíte znát správný název. Vyberte místo, kam cedulu potřebujete, a my poradíme, jaká se tam hodí.</p>
+      <p class="hero-cta"><a class="tlacitko velke" href="#kontakt">Napište, kam cedule přijde</a></p>
+    </div>
+    <ul class="dlazdice" role="list">
+      <li><a href="#umisteni-trava" class="dl"><span class="dl-n">01</span><span class="dl-t">Na trávník</span></a></li>
+      <li><a href="#umisteni-budova" class="dl"><span class="dl-n">02</span><span class="dl-t">Na budovu</span></a></li>
+      <li><a href="#umisteni-plot" class="dl"><span class="dl-n">03</span><span class="dl-t">Na plot</span></a></li>
+      <li><a href="#umisteni-dvere" class="dl"><span class="dl-n">04</span><span class="dl-t">Ke dveřím</span></a></li>
+      <li><a href="#umisteni-stul" class="dl"><span class="dl-n">05</span><span class="dl-t">Na stůl</span></a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce svetla" id="umisteni">
+  <div class="wrap">
+    <h2>Podle toho, kde bude viset</h2>
+    <p class="uvod">Stejná cedule se hledá pod různými slovy. Proto začínáme místem, ne názvem výrobku.</p>
+    <div class="mista karty">
+    <article class="misto" id="umisteni-trava">
+      <div class="misto-obr">{{ img('travnik.jpg', 'Orientační cedule na sloupcích v trávě', sizes='(min-width: 48rem) 28rem, 100vw') }}</div>
+      <div class="misto-t"><h3>Na trávník nebo mezi budovy</h3><p>Cedule do země, které návštěvníkovi ukážou cestu areálem.</p><ul role="list"><li>informační tabule do exteriéru</li><li>plány areálů a mapy</li><li>cedule na sloup, směrovky a šipky</li><li>parkovací cedule s výměnnou SPZ</li></ul></div>
+    </article>
+    <article class="misto" id="umisteni-budova">
+      <div class="misto-obr">{{ img('zed.jpg', 'Informační cedule na zdi budovy', sizes='(min-width: 48rem) 28rem, 100vw') }}</div>
+      <div class="misto-t"><h3>Na budovu</h3><p>Označení budovy, firem a institucí.</p><ul role="list"><li>seznam firem v budově</li><li>smaltovaná čísla popisná</li><li>plastické 3D nápisy a loga</li><li>bannery a plachty na fasádu</li></ul></div>
+    </article>
+    <article class="misto" id="umisteni-plot">
+      <div class="misto-obr">{{ img('plot.jpg', 'Cedule upevněná na plotě', sizes='(min-width: 48rem) 28rem, 100vw') }}</div>
+      <div class="misto-t"><h3>Na plot nebo bránu</h3><p>Cedule na plot zděný, drátěný i dřevěný.</p><ul role="list"><li>informační cedule k vchodu</li><li>označení projektu a dotačního programu</li><li>cedule na zakázku</li></ul></div>
+    </article>
+    <article class="misto" id="umisteni-dvere">
+      <div class="misto-obr">{{ img('dvere.jpg', 'Kovová tabulka u dveří', sizes='(min-width: 48rem) 28rem, 100vw') }}</div>
+      <div class="misto-t"><h3>Ke dveřím a do interiéru</h3><p>Značení místností a pater uvnitř budovy.</p><ul role="list"><li>plochý nebo vypouklý systém</li><li>číslování dveří a klíčů</li><li>cedulka volno–obsazeno</li><li>patrové a směrové cedule</li></ul></div>
+    </article>
+    <article class="misto" id="umisteni-stul">
+      <div class="misto-obr">{{ img('stul.jpg', 'Stolní jmenovka', sizes='(min-width: 48rem) 28rem, 100vw') }}</div>
+      <div class="misto-t"><h3>Na stůl</h3><p>Jmenovky na stůl i na oděv.</p><ul role="list"><li>jmenovky a popisky</li><li>stojánky na stůl</li><li>vitríny a úřední desky</li></ul></div>
+    </article>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="smalt">
+  <div class="wrap smalt-grid">
+    <div class="smalt-text">
+      <p class="kicker">Cedule na zakázku</p>
+      <h2>Smaltované cedule</h2>
+      <p>Čísla popisná a evidenční, hrobová čísla i cedule na zakázku. Smalt má lesklý povrch a výrazné barvy.</p>
+      <a class="tlacitko" href="#kontakt">Poptat smaltovanou cedulku</a>
+    </div>
+    <div class="smalt-foto">
+      <div class="sm sm-c">{{ img('cislo-cervene.jpg', 'Červená smaltovaná tabulka s číslem 34', sizes='(min-width: 48rem) 22rem, 50vw') }}</div>
+      <div class="sm sm-m">{{ img('cislo-modre.jpg', 'Modrá smaltovaná tabulka s číslem 11', sizes='(min-width: 48rem) 22rem, 50vw') }}</div>
+    </div>
+  </div>
+</section>
+
+<section class="sekce svetla" id="nazvy">
+  <div class="wrap">
+    <h2>Hledáte jinak? Je to totéž.</h2>
+    <p class="uvod">Lidé říkají různě. Najdete u nás všechno z toho:</p>
+    <ul class="synonyma" role="list">
+      <li>plechové cedule</li><li>smaltované cedule</li><li>čísla popisná</li><li>informační tabule</li>
+      <li>rozcestníky</li><li>směrovky</li><li>jmenovky na dveře</li><li>stolní jmenovky</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce" id="vyrobky">
+  <div class="wrap">
+    <h2>Z naší práce</h2>
+    <ul class="galerie" role="list">
+      <li>{{ img('sloupek.jpg', 'Informační cedule na dvou sloupcích', sizes='(min-width: 48rem) 22rem, 50vw') }}</li>
+      <li>{{ img('rozcestnik.jpg', 'Rozcestník se šipkami', sizes='(min-width: 48rem) 22rem, 50vw') }}</li>
+      <li>{{ img('jmenovka.jpg', 'Dveřní tabulka s výměnnými štítky', sizes='(min-width: 48rem) 22rem, 50vw') }}</li>
+      <li>{{ img('cislo-ulice.jpg', 'Smaltovaná tabulka s názvem ulice', sizes='(min-width: 48rem) 22rem, 50vw') }}</li>
+      <li>{{ img('jmenovka-barevna.jpg', 'Výměnná tabulka s jmény a logem', sizes='(min-width: 48rem) 22rem, 50vw') }}</li>
+      <li>{{ img('cislo-cervene.jpg', 'Červená smaltovaná tabulka', sizes='(min-width: 48rem) 22rem, 50vw') }}</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce tmava" id="kontakt">
+  <div class="wrap kontakt-grid">
+    <div>
+      <h2>Napište nám, kam cedule přijde</h2>
+      <p class="uvod">Stačí popsat místo a rozměr, zbytek poradíme.</p>
+      <p><strong>{{ site.nazev }}</strong><br>{{ site.kontakt.adresa.ulice }}, {{ site.kontakt.adresa.psc }} {{ site.kontakt.adresa.mesto }}<br>IČO {{ site.ico }}</p>
+      <p><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a><br><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a></p>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}

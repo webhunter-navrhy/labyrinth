@@ -1,0 +1,55 @@
+{
+ "slug": "labyrinth",
+ "nazev": "LABYRINTH-CZ",
+ "url": "https://webhunter-navrhy.github.io/labyrinth/",
+ "base": "/labyrinth/",
+ "lang": "cs",
+ "popis": "Smaltované a plechové cedule, domovní čísla, orientační systémy a jmenovky z Hradce Králové. Vyberte podle toho, kam cedule přijde.",
+ "navrh": true,
+ "domena": "",
+ "og_image": "travnik.jpg",
+ "logo": "logo.png",
+ "theme_color": "#15191b",
+ "typ": "LocalBusiness",
+ "ico": "65672321",
+ "kontakt": {
+  "email": "info@labyrinth-cz.cz",
+  "telefon": "495 265 523",
+  "adresa": {
+   "ulice": "Lhotecká 135",
+   "psc": "500 09",
+   "mesto": "Hradec Králové",
+   "zeme": "CZ"
+  }
+ },
+ "oteviraci_doba": [],
+ "sameas": [],
+ "cenove_rozpeti": "",
+ "formular": {
+  "endpoint": "",
+  "demo": true,
+  "predmet": "Poptávka z webu"
+ },
+ "nav": [
+  {
+   "text": "Podle umístění",
+   "href": "#umisteni"
+  },
+  {
+   "text": "Smaltované cedule",
+   "href": "#smalt"
+  },
+  {
+   "text": "Jak hledáte",
+   "href": "#nazvy"
+  },
+  {
+   "text": "495 265 523",
+   "href": "tel:495265523"
+  },
+  {
+   "text": "Napsat nám",
+   "href": "#kontakt"
+  }
+ ]
+}

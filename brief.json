@@ -1,0 +1,452 @@
+{
+ "slug": "labyrinth",
+ "zdroj_url": "https://www.labyrinth-cz.cz",
+ "firma": "LABYRINTH-CZ",
+ "obor": [
+  "stavebnictví a řemesla",
+  "umění a fotografie"
+ ],
+ "ico": "65672321",
+ "ares": {
+  "obchodniJmeno": "Mgr. Radek Janků",
+  "ico": "65672321"
+ },
+ "kontakty": {
+  "emaily": [
+   "info@labyrinth-cz.cz"
+  ],
+  "telefony": [
+   "495 265 523",
+   "608 311 712",
+   "720 075 092"
+  ],
+  "adresa": "",
+  "socialni_site": []
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://www.labyrinth-cz.cz/img/logo.png",
+  "rozmery": [
+   331,
+   81
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#c44100",
+   "#9bcd36",
+   "#009b90",
+   "#68cc6f",
+   "#007aff",
+   "#ee0017"
+  ],
+  "z_loga": [
+   "#9b0303",
+   "#d29898",
+   "#dddf5a"
+  ],
+  "theme_color": "#ffffff",
+  "doporucene": [
+   "#9b0303",
+   "#d29898",
+   "#c44100",
+   "#9bcd36"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://www.labyrinth-cz.cz/service/rotacka.php?show=7",
+   "sirka": 1920,
+   "vyska": 605,
+   "alt": "test"
+  },
+  {
+   "soubor": "podklady/foto/foto-02.png",
+   "url": "https://www.labyrinth-cz.cz/img/info2.png",
+   "sirka": 1587,
+   "vyska": 1008,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "https://www.labyrinth-cz.cz/service/rotacka.php?show=11",
+   "sirka": 1920,
+   "vyska": 605,
+   "alt": "test4"
+  },
+  {
+   "soubor": "podklady/foto/foto-04.jpg",
+   "url": "https://www.labyrinth-cz.cz/service/rotacka.php?show=15",
+   "sirka": 1920,
+   "vyska": 605,
+   "alt": "Cedule a značení pro školy"
+  },
+  {
+   "soubor": "podklady/foto/foto-05.jpg",
+   "url": "https://www.labyrinth-cz.cz/service/rotacka.php?show=17",
+   "sirka": 1920,
+   "vyska": 605,
+   "alt": "Cedule a značení pro zdravotnictví"
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "Aktuality z orientačních systémů archiv aktualit",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Hledáte vhodný orientační systém ? Chcete ten nejlepší na českém trhu? Vsaďte na naši dlouholetou zkušenost, profesionalitu a na kvalitu našich výrobků !",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Rychlá navigace v orientačních systémech",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "h2",
+   "text": "Naši zákazníci - uživatelé orientačních a informačních systémů další reference",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Informační cedule a tabule do země informační tabule cedule do země mezi budovy do exteriéru",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Plány areálů, mapy schéma areálu cedule do země mezi budovy do exteriéru",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule na budovu označení budovy značení firem a institucí jiné cedule na budovu",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Seznam firem v budově cedule na budovu přehled firem v budově označení sídel firem",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Smaltované cedule cedule na budovu čísla popisná a evidenční hrobová čísla cedule na zakázku",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule na plot plot zděný, drátěný, dřevěný mezi budovy do exteriéru",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule na sloup informační tabule směrové cedule šipky, směrovky výměnné reklamní horizonty",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Parkovací informační cedule, vyhrazené místo pro parkování cedule vyhrazené parkovací místo vyhrazené parkování a stání s výměnnou RZ (SPZ) cedule RESERVÉ",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule volně stojící na zemi informační tabule a jiná značení postavené volně na zemi",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Plastické 3D nápisy nápisy na budovu plastické texty a loga 3D nápisy do exteriéru i interiéru",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Bannery, plachty dočasné informace na fasádu domu krycí plachty",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ostatní venkovní značení označení projektu EU povinná publicita / dotační program označení základního kamene atypické cedule a materiály, jiné...",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Hlavní a centrální cedule hlavní informační tabule centrální cedule",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Patrové a směrové cedule cedule do pater směrovky na chodby",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedulky na dveře, cedulky ke dveřím, značení místností a) Plochý systém b) Vypouklý systém",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedulka VOLNO - OBSAZENO obsazení místností obsazení zasedačky",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Číslování dveří a klíčů cedulka s číslem dveří cedulka na klíče - klíčenka",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Jmenovky a popisky jmenovky na stůl jmenovky na šaty",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Rámečky a vyklapávací lišty rámování obrazů, diplomů, apod. rámy a rámečky požární řády a směrnice výměnné lišty pro vzkazy",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Vitríny a úřední desky vitríny, úřední desky uzamykatelné nástěnky prosklené informační tabule informační desky a plochy",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Stojany, stojánky samostojné na zem stojánky na stůl",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Závěsné systémy zavěšení na lankách systémy pro galerie",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Nástěnky magnetické nástěnky popisovatelné tabule stíratelné cedule",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ostatní výrobky, přívěšky, dárky... Přívěšky, medaile a psí známky medaile, amulety přívěšky psí známky Svatební figurky figurky pro svatební hosty zasedací pořádek upomínkové předměty ze svatby Dárkové cedule a předměty cedule na přání vtipné cedule dárkové předměty Ostatní výrobky na přání",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Přívěšky, medaile a psí známky medaile, amulety přívěšky psí známky",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Svatební figurky figurky pro svatební hosty zasedací pořádek upomínkové předměty ze svatby",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dárkové cedule a předměty cedule na přání vtipné cedule dárkové předměty",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule do země informační tabule cedule mezi budovami cedule a tabule do země plán areálu, mapa, schema",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Plastické nápisy a 3D loga plastické 3D nápisy a loga označení budov 3D nápisy a písmena na budovy",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule na budovu cedule na budovy cedule na plot a na zeď bannery a plachty",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Označení dotačních programů povinná publicita EU dotační programy označení základního kamene",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule do budovy hlavní informační tabule orientační cedule patrové cedule směrové tabule a šipky",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedulky do interiéru cedulky ke dveřím ordinační doby a piktogramy jmenovky na stůl a šaty číslování dveří a klíčů",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Stojany, vitríny, rámečky stojany a stojánky vitríny, nástěnky informační a úřední desky rámečky a výměnné lišty",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ostatní značení zakázková výroba atypické provedení speciální výroba",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule na sloupy cedule na sloup orientační a navigační cedule šipky, směrovky",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule pro parkování parkovací cedule vyhrazené parkování a stání cedule reservé",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Značení na sklo nápisy na sklo pískovaný vzhled skel oken a dveří",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule do země informační tabule cedule mezi budovami cedule a tabule do země plán areálu, mapa, schema",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Plastické nápisy a 3D loga plastické 3D nápisy a loga označení budov 3D nápisy a písmena na budovy",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule na budovu cedule na budovy cedule na plot a zeď bannery a plachty",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Pamětní deska na dům povinná publicita EU cedule dotační program označení základního kamene",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule do budovy hlavní informační tabule patrové cedule směrové tabule a šipky",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedulky ke dveřím a na dveře rozvrhy hodin cedulky ke dveřím piktogramy číslování dveří a klíčů",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Stojany, vitríny, rámečky stojany, stojánky vitríny, nástěnky informační a úřední desky rámečky a výměnné lišty",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ostatní značení zakázková výroba atypické provedení speciální výroba",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule na sloupy cedule na sloupy orientační a navigační cedule šipky, směrovky",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Cedule pro parkování parkovací cedule vyhrazené parkování a stání cedule reservé",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Značení na sklo nápisy na sklo pískovaný vzhled skel oken a dveří",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Atypické orientační systémy Sklo skleněné cedule cedulky ze skla skleněné výrobky Kov hliník, dural ocel nerez Dřevo cedule ze dřeva dřevěné cedulky dřevěné prvky Ostatní materiály a výrobky plasty pryže, pěny sendvičové a jiné konstrukce",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Sklo skleněné cedule cedulky ze skla skleněné výrobky",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dřevo cedule ze dřeva dřevěné cedulky dřevěné prvky",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Ostatní materiály a výrobky plasty pryže, pěny sendvičové a jiné konstrukce",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Byli jsme osloveni známou českou potravinářskou firmou Rabbit Trhový Ště ...",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Označit klubovnu, navíc skautskou, a pokud možno takovým nápisem, co by vy ...",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "I během prázdnin nezahálíme. Pro pražskou Základní školu Nad přehradou  ...",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Kvalitní orientační a informační systém musí být vyrobený z materiálu, který má prakticky neomezenou životnost a to jak v interiéru, tak i v exteriéru. Proto používáme eloxovaný hliník. Dále musí být systém maximálně variabilní a snadno výměnný, aby dokázal rychle a levně akceptovat organizační změny.",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Takto vyrobené informační cedule a štítky musejí být uživatelsky „přívětivé” a zároveň nadčasové. Přesně takovéto značení vám vyrobí naše firma LABYRINTH-CZ , a to již od roku 1996 (!)",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Rozmístění orientačních a informačních tabulí , navigačních cedulek, štítků, jmenovek, vitrín, stojanů apod. volte tak, jako když byste vcházeli do vaší firmy poprvé. Takto jistě „narazíte” na informační ceduli označující vaši firmu. Zároveň tato cedule může být použita i jako exteriérová reklamní cedule. K cíli vás bezpečně dovede směrovka, šipka nebo jiná orientační a navigační cedule , kterou naleznete na sloupu, na plotě, na fasádě, v trávě apod.",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Takovéto informační tabule i orientační cedule (cedulky) jsou zároveň jakousi vizitkou vaší firmy. Samozřejmostí je, že značení firmy musí splňovat živnostenský zákon. Toto značení se nalézá venku, přímo na budově nebo před ní. Nebo lze využít velké informační cedule pro větší areál.",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Po vstupu do budovy následuje tzv. hlavní informační a orientační cedule , ze které je vidět základní členění budovy. Různými grafickými prvky jsou zvýrazněna jednotlivá poschodí, budovy, křídla budov, oddělení, místnosti apod. Po vystoupání do příslušného patra pokračuje orientační systém tzv. patrovou informační a orientační cedulí nebo dílčími informačními cedulkami a štítky, které jsou většinou doplněné směrovkami (šipkami) a např. i čísly dveří nebo jmény.",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Vaším cílem je osoba sedící v místnosti označené tzv. kancelářskou (dveřní) cedulkou . Na stole dotyčného nesmí chybět snadno výměnná jmenovka , která koresponduje s celkovým orientačním a informačním systémem, přičemž tisk jmen (stejně tak jako u dveřní cedulky) se provádí pomocí běžné tiskárny.",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Na chodbách se setkáte s dalšími cedulkami, jako jsou např. různé piktogramy označující nejčastěji provozní místnosti (WC, kuchyňky, archivy, zasedací místnosti, sprchy, strojovny, výtahy apod). Nedílnou součástí každé budovy jsou požární řády a směrnice , nouzové úniky, bezpečnostní tabulky, vitríny , úřední desky , nástěnky , výměnné rámečky na různé informace, podlahové značení a jiné další informační tabule a cedule.",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dalšími doplňky dobrého orientačního systému mohou být různé informační stojany , stojánky či jiné informační prvky, nebo celé a komplexní orientační a informační systémy v provedení přesně dle přání zákazníka.",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Vše musí samozřejmě „pěkně ladit”, být v jednotném \"duchu\" a vizuálním stylu, tvořit nadčasovou harmonii. Kromě toho, že veškeré cedule a štítky jsou pěkně zpracované, musí být vše hlavně funkční(!) Navíc s dlouhou životností a s nulovými provozními náklady na aktualizaci či výměnu často měnicích se údajů.",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Toto vše za vás \"pohlídáme\" my, firma LABYRINTH-CZ , a to již přes 30 let !",
+   "zdroj": "https://www.labyrinth-cz.cz/"
+  }
+ ],
+ "chybi": [
+  "fotky firmy/provozu/produktů (nalezeno 5, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": ""
+}
