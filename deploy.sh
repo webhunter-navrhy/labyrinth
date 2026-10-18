@@ -39,8 +39,8 @@ echo "== gh-pages (dist/)"
 TMP="$(mktemp -d)"; cp -R dist/. "$TMP/"; touch "$TMP/.nojekyll"
 ( cd "$TMP" && git init -q -b gh-pages && git add -A \
   && git -c user.name="WebHunter" -c user.email="info@webhunter.cz" commit -q -m "build $(date +%F\ %H:%M)" \
-  && git push -q -f "$PUSH_URL" gh-pages )
-rm -rf "$TMP"
+  && git push -q -f "$PUSH_URL" gh-pages && git rev-parse HEAD > "$TMP.sha" )
+SHA="$(cat "$TMP.sha" 2>/dev/null || true)"; rm -rf "$TMP" "$TMP.sha"
 
 echo "== Pages zapnuté?"
 if ! gh api "repos/$REPO/pages" >/dev/null 2>&1; then
@@ -51,9 +51,11 @@ fi
 echo "== čekám na build Pages"
 OPRAVENO=0
 for i in $(seq 1 40); do
-  ST="$(gh api "repos/$REPO/pages/builds/latest" --jq .status 2>/dev/null || echo unknown)"
-  echo "  [$i] status: $ST"
-  if [ "$ST" = "built" ]; then break; fi
+  # 18. 10. 2026: „built“ hned po pushi patří často PŘEDCHOZÍMU buildu → čekat na build právě pushnutého commitu
+  read -r ST BC <<<"$(gh api "repos/$REPO/pages/builds/latest" --jq '.status + " " + .commit' 2>/dev/null || echo unknown -)"
+  echo "  [$i] status: $ST (${BC:0:7})"
+  if [ "$ST" = "built" ] && { [ -z "$SHA" ] || [ "$BC" = "$SHA" ]; }; then break; fi
+  [ "$ST" = "built" ] && ST="čeká na nový build"
   if [ "$ST" = "errored" ] && [ "$OPRAVENO" = 0 ]; then
     echo "  errored -> jednou znovu spouštím build"; gh api "repos/$REPO/pages/builds" -X POST >/dev/null || true; OPRAVENO=1
   elif [ "$ST" = "errored" ]; then echo "CHYBA: Pages build znovu selhal"; exit 3; fi
