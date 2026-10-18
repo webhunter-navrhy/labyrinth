@@ -26,7 +26,7 @@
   <div class="wrap">
     <a href="{{ url('') }}" class="logo">{% if site.logo %}<img src="{{ base }}{{ site.logo }}" alt="{{ site.nazev }}" height="40">{% else %}{{ site.nazev }}{% endif %}</a>
     <nav aria-label="Hlavní">
-      {% for n in site.nav %}<a{% if loop.last %} class="poptat"{% endif %} href="{{ n.href if n.href.startswith('#') or n.href.startswith('http') else url(n.href) }}">{{ n.text }}</a> {% endfor %}
+      {% for n in site.nav %}<a{% if loop.last %} class="poptat"{% endif %} href="{{ n.href if n.href.startswith(('#', 'http', 'tel:', 'mailto:')) else url(n.href) }}">{{ n.text }}</a> {% endfor %}
     </nav>
   </div>
 </header>
